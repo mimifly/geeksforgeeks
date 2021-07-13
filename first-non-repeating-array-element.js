@@ -15,4 +15,4 @@ function firstNonRepeat(array) {
   return array[j]
 }
 
-firstNonRepeat(array)
+firstNonRepeat(array) // 4
