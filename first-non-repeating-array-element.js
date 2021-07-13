@@ -6,11 +6,11 @@ function firstNonRepeat(array) {
   
   // necessary to loop through every element in case of edge case scenarios where an element will repeat on the last index
   for (let a of array) {
-    if (tally[a]) { // element already exists in the tally object
+    if (tally[a]) { 
       tally[a]++;
       while(tally[array[j]] > 1) j++
     }
-    else { // initialiasing the element in the tally object
+    else {
        tally[a] = 1
     }   
   }
