@@ -1,4 +1,4 @@
-const array = [1,2,3,4,1,1,1,3,3,2]
+const array = [1,2,3,4,1,1,1,3,3,2] //test array
 
 function firstNonRepeat(array) {
   let j = 0;
